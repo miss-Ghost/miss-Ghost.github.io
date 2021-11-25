@@ -1,55 +1,214 @@
 <!DOCTYPE html>
-<html lang="uk">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Це сторінка про мене і котів">
-        <meta property="og:image" content="https://miss-ghost.github.io/og_image.jpg">
-        <title>Привіт :)</title>
-    </head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stray Kids</title>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/css/lightgallery.min.css"
+      integrity="sha512-e/7+n/bcByOQg6+rGt7Bx12Si0rpj4Xfe3EeS3W2RDSGGG/qT9rC7ZQCVAgaVAmZKZisvZ1DqaMd66TzfVO/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <body>
-        <h1>Привіт :)</h1>
-        <h2>Мене звати Віка, і все, що мені потрібно для щастя — це музика в навушниках і кіт на колінцях</h2>
-        <p>
-        Обожнюю дощ і туман, катання на лижах, верхову їзду, стрільбу з лука, настільні та комп'ютерні ігри, вивчати міфологію та психологію, а ще складати списки на всі випадки життя.
-        </p>
+    <link rel="stylesheet" href="style.css" />
 
-        <h3>Тому ось список котів, які у мене коли-небуть були:</h3>
-        <ul>
-            <li>Марс</li>
-            <li>Лунатик (був найменшим серед своїх братів, але тримав у страху весь район і спав на плиті біля запалених комфорок)</li>
-            <li>Рижик</li>
-            <li>Сенсей</li>
-            <li>Кіріто, Асуна і Сакура (яких ми з сестрою знайшли в пакеті біля річки)</li>
-            <li>Сенсей молодший</li>
-            <li>Саймон</li>
-            <li>Чешир</li>
-            <li>Веснушка</li>
-            <li>Барсик (в результаті виявився Барсеткой)</li>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="wrapper">
+        <div class="logo">
+          <a href="#skz">
+            <img src="logo.png" />
+          </a>
+        </div>
+        <ul class="menu">
+          <li><a href="#about">Про SKZ</a></li>
+          <li><a href="#members">Мембери</a></li>
+          <li><a href="#links">Соцмережі</a></li>
         </ul>
-        
-        <h3>Це Чешир</h3>
-        <img src="чешир.jpg" width="50%"/>
-        <h3>А це Барсетка</h3>
-        <img src="барсетка.jpg" width="50%"/>
+      </div>
+    </div>
 
-        <h3>Список речей, які я не переношу:</h3>
-        <ol>
-            <li>павуки</li>
-            <li>жара</li>
-            <li>буряк</li>
-            <li>нав'язливі люди</li>
-            <li>фотографувати та фотографуватись</li>
-            <li>вставати раніше 10 ранку</li>
-            <li>сходи в гуртожитку</li>
-        </ol>
-        <a href="https://www.instagram.com/miss_ghost4/" target="_blank">сторінка в інстаграм, де майже нічого немає</a>
-        
-        <p>
-        </p>
+    <div id="skz" class="section">
+      <div class="wrapper">
+        <h1 class="title">Stray Kids</h1>
+      </div>
+    </div>
 
-    </body>
+    <div id="about" class="section">
+      <div class="wrapper">
+        <div class="content">
+          <div class="left">
+            <img src="1.jpg" />
+
+            <div class="text">
+              <p id="p-1">
+                <span id="skz-bold">Stray Kids</span> — чоловіча k-pop група
+                компанії JYP Entertainment. На відміну від більшості інших груп
+                даної індустрії, учасники Stray Kids самі пишуть тексти і музику
+                до своїх треків, а також ставлять хореографії.
+              </p>
+              <p id="p-2">
+                Дискографія гурту складається з двох студійних альбомів, восьми
+                міні-альбомів (один з яких був випущений до дебюту), 18 синглів
+                та 63 відеокліпів.
+              </p>
+              <p id="p-3">
+                Офіційний фандом має назву <span id="stay-bold">STAY</span>.
+              </p>
+            </div>
+          </div>
+          <div class="right">
+            <img src="3.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="members" class="section-b">
+      <div class="wrapper">
+        <h2>Мембери</h2>
+
+        <div class="gallery" id="lightgallery">
+          <div class="gallery-item">
+            <a
+              href="batch_SHJ_9708-copy.jpeg"
+              target="_blank"
+              data-sub-html="<h4>Бан Крістофер Чан</h4><p>Лідер, вокаліст, репер, продюсер.</p>"
+            >
+              <img src="chris.jpg" />
+            </a>
+            <p class="name">Бан Чан</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="ce3fab2b8c7dd7da68886a06f9938d35.jpg"
+              target="_blank"
+              data-sub-html="<h4>Лі Мінхо</h4><p>Головний танцівник, репер, воккаліст. Сценічне ім'я - Лі Ноу.</p>"
+            >
+              <img src="minho.jpg" />
+            </a>
+            <p class="name">Мінхо</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="Ea59IovXYAA-fbD.jpg"
+              target="_blank"
+              data-sub-html="<h4>Со Чанбін</h4><p>Репер, саб-вокаліст, продюсер.</p>"
+            >
+              <img src="changbin.jpg" />
+            </a>
+            <p class="name">Чан Бін</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="Ea1ulE9XQAA5-LA.jpg"
+              target="_blank"
+              data-sub-html="<h4>Хван Хьонджин</h4><p>Танцівник, репер, саб-вокаліст, віжуал.</p>"
+            >
+              <img src="hyonjin.jpg" />
+            </a>
+            <p class="name">Хьонджин</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="49cff39e919c71ce9ba74b599b6f82a5.jpg"
+              target="_blank"
+              data-sub-html="<h4>Хан Джисон</h4><p>Головний репер, вокаліст, продюсер.</p>"
+            >
+              <img src="han.jpg" />
+            </a>
+            <p class="name">Хан</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="2fa44dec3af639a314ee22b310e9f632.jpg"
+              target="_blank"
+              data-sub-html="<h4>Лі Фелікс</h4><p>Танцівник, репер, саб-вокаліст.</p>"
+            >
+              <img src="felix.jpg" />
+            </a>
+            <p class="name">Фелікс</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="Ea1gvQHXsAUfxFb.jpg"
+              target="_blank"
+              data-sub-html="<h4>Кім Синмін</h4><p>Головний вокаліст.</p>"
+            >
+              <img src="seungmin.jpg" />
+            </a>
+            <p class="name">Синмін</p>
+          </div>
+          <div class="gallery-item">
+            <a
+              href="batch_SHJ_0637-copy.jpg"
+              target="_blank"
+              data-sub-html="<h4>Ян Чонін</h4><p>Вокаліст, макне. Сценічне ім'я - I.N.</p>"
+            >
+              <img src="in.jpg" />
+            </a>
+            <p class="name">Чонін</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="links" class="section">
+      <div class="wrapper-976">
+        <div class="end-text">
+          <h2>STRAY KIDS EVERYWHERE ALL AROUND THE WORLD</h2>
+          <h3>YOU MAKE STRAY KIDS STAY &#10084;</h3>
+        </div>
+        <div class="link-group">
+          <div class="link-item">
+            <a href="https://twitter.com/Stray_Kids" target="_blank">twitter</a>
+          </div>
+          <div class="link-item">
+            <a href="https://www.instagram.com/realstraykids/" target="_blank"
+              >instagram</a
+            >
+          </div>
+          <div class="link-item">
+            <a href="https://www.youtube.com/c/StrayKids" target="_blank"
+              >youtube</a
+            >
+          </div>
+          <div class="link-item">
+            <a href="https://www.facebook.com/JYPEStrayKids/" target="_blank"
+              >facebook</a
+            >
+          </div>
+          <div class="link-item">
+            <a href="https://www.tiktok.com/@jypestraykids?" target="_blank"
+              >tiktok</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.3.0/lightgallery.min.js"
+      integrity="sha512-+1CyleTPoFvPO15/CfBZ5h6k/mu/qCQe9uxq1tEfO7SRJ52MnCAQ561bAYkvrsGtnG7AkcvKtVwdeoZc8ps7bQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script type="text/javascript">
+      lightGallery(document.getElementById("lightgallery"), {
+        selector: ".gallery-item a",
+      });
+    </script>
+  </body>
 </html>
